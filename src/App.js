@@ -116,7 +116,6 @@ export default function Portfolio() {
             width: "200px",
             borderRadius: "10%",
             marginBottom: "1rem",
-            animation: "spin 5s infinite linear", // Flashy profile picture spin
           }}
         />
         <p style={{ maxWidth: "600px", margin: "0 auto", color: "gray" }}>
