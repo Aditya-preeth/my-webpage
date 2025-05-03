@@ -158,7 +158,7 @@ export default function Portfolio() {
           }, {
             title: "Portfolio Website",
             description: "The website you're viewing right now – built with React and CSS!",
-            link: "https://github.com/yourusername/portfolio-site"
+            link: "https://github.com/Aditya-preeth/my-webpage"
           }].map((project, index) => (
             <div
   key={index}
