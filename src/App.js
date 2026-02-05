@@ -99,9 +99,10 @@ export default function Portfolio() {
   <a href="#projects" className="btn btn-inverse">
     View My Work
   </a>
-  <a href="/resume.pdf" download className="btn btn-outline">
-    Download Resume
-  </a>
+<a href={process.env.PUBLIC_URL + "/resume.pdf"} download className="btn btn-outline">
+  Download Resume
+</a>
+
 </div>
 
       </section>
