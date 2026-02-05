@@ -111,14 +111,15 @@ export default function Portfolio() {
       <section id="about" style={{ padding: "5rem 1rem", textAlign: "center" }}>
         <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", marginBottom: "2rem" }}>About Me</h2>
         <img
-          src="/image.png"
-          alt="Profile"
-          style={{
-            width: "200px",
-            borderRadius: "10%",
-            marginBottom: "1rem",
-          }}
-        />
+  src={process.env.PUBLIC_URL + "/image.png"}
+  alt="Profile"
+  style={{
+    width: "200px",
+    borderRadius: "10%",
+    marginBottom: "1rem",
+  }}
+/>
+
         <p style={{ maxWidth: "600px", margin: "0 auto", color: "gray" }}>
         Computer Science graduate with hands-on experience in full-stack web application development, specializing in building responsive, scalable, and maintainable web solutions. Proficient in HTML, CSS, JavaScript, React.js, and AngularJS for frontend development, with backend experience using Python and Django. Skilled in developing and consuming RESTful APIs, implementing application logic, and collaborating using Git-based version control. Strong understanding of software development life cycle (SDLC), testing methodologies, and deployment workflows. Motivated to contribute to real-world projects by delivering clean, efficient, and user-focused applications.
         </p>
@@ -200,7 +201,7 @@ export default function Portfolio() {
       <section id="contact" style={{ padding: "5rem 1rem", textAlign: "center" }}>
         <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", marginBottom: "2rem" }}>Contact</h2>
         <p style={{ color: "gray" }}>
-          Feel free to reach out at <a href="Srinivasa.nidadavolu@gmail.com" style={{ color: "#61dafb" }}>preethamaditya04@gmail.com</a>
+          Feel free to reach out at <a href="Srinivasa.nidadavolu@gmail.com" style={{ color: "#61dafb" }}>Srinivasa.nidadavolu@gmail.com</a>
         </p>
         <p style={{ color: "gray", marginTop: "1rem" }}>
           Or connect with me on <a href="https://github.com/Aditya-preeth" target="_blank" rel="noopener noreferrer" style={{ color: "#61dafb" }}>GitHub</a>
