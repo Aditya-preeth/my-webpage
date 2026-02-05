@@ -6,7 +6,7 @@ export default function Portfolio() {
   const [showSubtitle, setShowSubtitle] = useState(false);
   const [textIndex, setTextIndex] = useState(0);
 
-  const title = "Hello, I'm Srinivasa Aditya Preetham Nidadavolu";
+  const title = "Hello!, I'm Srinivasa Aditya Preetham Nidadavolu";
 
   useEffect(() => {
     setShowTitle(true);
@@ -93,7 +93,7 @@ export default function Portfolio() {
             transition: "opacity 1s ease, transform 1s ease",
           }}
         >
-        Welcome to my Webpage
+        Welcome to my Portfolio
         </p>
         <div style={{ display: "flex", gap: "1rem" }}>
   <a href="#projects" className="btn btn-inverse">
@@ -111,7 +111,7 @@ export default function Portfolio() {
       <section id="about" style={{ padding: "5rem 1rem", textAlign: "center" }}>
         <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", marginBottom: "2rem" }}>About Me</h2>
         <img
-          src="/image.jpg"
+          src="/image.png"
           alt="Profile"
           style={{
             width: "200px",
@@ -120,9 +120,7 @@ export default function Portfolio() {
           }}
         />
         <p style={{ maxWidth: "600px", margin: "0 auto", color: "gray" }}>
-        Motivated master’s student in Computer Science with a diverse skill set in software development and IT infrastructure. Proficient in
- web development (HTML, CSS, JavaScript, React.js, Angular.js, Django) and programming languages (Python, C++). Passionate
- about leveraging technology to solve real-world problems and committed to continuous learning.. I enjoy turning complex problems into simple, beautiful, and intuitive designs. I’m currently exploring full-stack development and artificial intelligence.
+        Computer Science graduate with hands-on experience in full-stack web application development, specializing in building responsive, scalable, and maintainable web solutions. Proficient in HTML, CSS, JavaScript, React.js, and AngularJS for frontend development, with backend experience using Python and Django. Skilled in developing and consuming RESTful APIs, implementing application logic, and collaborating using Git-based version control. Strong understanding of software development life cycle (SDLC), testing methodologies, and deployment workflows. Motivated to contribute to real-world projects by delivering clean, efficient, and user-focused applications.
         </p>
       </section>
 
@@ -132,12 +130,12 @@ export default function Portfolio() {
         <div style={{ maxWidth: "700px", margin: "0 auto", color: "gray" }}>
           <div style={{ marginBottom: "2rem" }}>
             <h3 style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Master of Science in Computer Science</h3>
-            <p>University of South Dakota, 2024 – Present</p>
+            <p>University of South Dakota, Jan 2024 – Dec 2025</p>
             <p>Relevant coursework: Machine Learning, Web Development, Data Structures</p>
           </div>
           <div>
             <h3 style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Bachelor of Technology in Computer Science</h3>
-            <p>Lovely Professional University, 2019 – 2023</p>
+            <p>Lovely Professional University, Aug 2019 – May 2023</p>
             <p>Relevant coursework: Data Structures, software Testing, Web Development</p>
           </div>
         </div>
@@ -202,7 +200,7 @@ export default function Portfolio() {
       <section id="contact" style={{ padding: "5rem 1rem", textAlign: "center" }}>
         <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", marginBottom: "2rem" }}>Contact</h2>
         <p style={{ color: "gray" }}>
-          Feel free to reach out at <a href="preethamaditya04@gmail.com" style={{ color: "#61dafb" }}>preethamaditya04@gmail.com</a>
+          Feel free to reach out at <a href="Srinivasa.nidadavolu@gmail.com" style={{ color: "#61dafb" }}>preethamaditya04@gmail.com</a>
         </p>
         <p style={{ color: "gray", marginTop: "1rem" }}>
           Or connect with me on <a href="https://github.com/Aditya-preeth" target="_blank" rel="noopener noreferrer" style={{ color: "#61dafb" }}>GitHub</a>
